@@ -1,0 +1,25 @@
+program_name = "Classes test"
+
+class Empty:
+  def __init__():
+    x = 0
+
+class Point:
+  def __init__(x, y):
+    self.x = x
+    self.y = y
+
+  def SetX(value):
+    self.x = value
+  def SetY(value):
+    self.y = value
+
+  def __str__():
+    return '(' + str(self.x) + '; ' + str(self.y) + ')'
+
+origin = Empty()
+origin = Point(0, 0)
+
+far_far_away = Point(10000, 50000)
+
+print program_name, origin, far_far_away, origin.SetX(1)
